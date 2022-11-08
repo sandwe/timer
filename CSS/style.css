@@ -1,0 +1,85 @@
+body {
+  background-color: #f0f4ff;
+}
+
+.tit-logo {
+  width: 244px;
+  height: 48px;
+  margin: 72px auto 60px;
+}
+
+.tit-logo .img-tit {
+  width: 100%;
+  height: 100%;
+}
+
+.sec-timer {
+  width: 400px;
+  height: 360px;
+  padding: 48px 58px 40px;
+  border-radius: 16px;
+  background: linear-gradient(144.07deg, #5572bb 2.13%, #374b7c 102.97%);
+  margin: 0 auto;
+  box-shadow: 20px 20px 60px 10px rgba(55, 75, 124, 0.4);
+}
+
+.sec-timer .tit-timer {
+  font-family: "Pretendard-Bold";
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid #3d538a;
+  padding-bottom: 23px;
+}
+
+.sec-timer .sec-set {
+  border-top: 1px solid #5b75b4;
+  padding-top: 33px;
+  display: flex;
+  justify-content: center;
+}
+
+.sec-set .btn-wrap::after {
+  display: inline-block;
+  content: "";
+  width: 6px;
+  height: 26px;
+  background-image: url("../image/dot.png");
+  background-position: center;
+}
+
+.btn-wrap {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.btn-wrap span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Pretendard-Bold";
+  font-size: 40px;
+  color: #fff;
+}
+
+.btn-up,
+.btn-down {
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  background: linear-gradient(314.28deg, #304577 0%, #4c65a0 83%);
+  border: 1px solid #354971;
+}
+.btn-up {
+  border-radius: 4px 4px 0 0;
+}
+.btn-down {
+  border-radius: 0 0 4px 4px;
+}
+
+footer p {
+  font-family: "Pretendard-Regular";
+  color: #8596bf;
+}

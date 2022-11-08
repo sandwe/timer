@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>타이머</title>
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <h1 class="tit-logo">
+      <img src="image/weniv-logo.png" alt="weniv" class="img-tit" />
+    </h1>
+    <section class="sec-timer">
+      <h2 class="tit-timer">TIMER</h2>
+      <section class="sec-set">
+        <p>HRS</p>
+        <div class="btn-wrap">
+          <button type="button" class="btn-up"></button>
+          <button type="button" class="btn-down"></button>
+          <span id="hours">00</span>
+        </div>
+        <p>MIN</p>
+        <div class="btn-wrap">
+          <button type="button" class="btn-up"></button>
+          <button type="button" class="btn-down"></button>
+          <span id="minutes">00</span>
+        </div>
+        <p>SEC</p>
+        <div class="btn-wrap">
+          <button type="button" class="btn-up"></button>
+          <button type="button" class="btn-down"></button>
+          <span id="seconds">00</span>
+        </div>
+      </section>
+
+      <button class="btn-start" type="button">START</button>
+      <button class="btn-reset" type="button">RESET</button>
+    </section>
+    <footer>
+      <p>@ WENIV CORP</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
